@@ -1,0 +1,72 @@
+body,div,img,ul{
+  margin: 0;
+}
+li,a, ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.top-nav{
+  background:#115f83;
+  padding-left: 20%;
+}
+.top-nav ul{
+    padding: 5px;
+}
+.top-nav li{
+  display: inline-block;
+  border-right: solid 1px #fff;
+  padding-right:5px;
+}
+.top-nav a{
+  color: #fff;
+}
+header{
+  padding: 0 8%;
+  margin: 0;
+  /*background:rgb(245, 244, 244);*/
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496391751089&di=e3e47af69126ba67d8296b9fe1cb207b&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F03%2F76%2F1ef171068436b7713a4f1a24f2f991af.jpg);
+}
+header img{
+  display: inline-block;
+  /*float: left;*/
+}
+header h3{
+  display: inline-block;
+  /*float: left;*/
+}
+
+header .huizhang img{
+  width:100px;
+  margin: 0px 20px 20px 0px;;
+}
+.huizhang{
+  height: 150px;
+}
+.huizhang h3{
+  color: #000;
+  margin-top: 40px;
+}
+.huizhang div{
+  display: inline-block;
+  margin-top: 40px;
+}
+.huizhang #span1{
+  font-size:10px;
+}
+footer{
+  color: #fff;
+  background: #000000;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.yqlj{
+  margin-top: 20px;
+}
+.yqlj a{
+  display: block;
+  color: #fff;
+  margin: 5px 0;
+}

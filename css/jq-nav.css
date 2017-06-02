@@ -1,0 +1,26 @@
+nav{
+	background: #115f83;
+	text-align: center;
+
+}
+nav a{
+	color: #fff;
+}
+.slid{
+	z-index: 0;
+}
+nav ul{
+	display: inline-block;
+	margin:8px 0;
+	padding-right:15px;
+	border-right:solid 1px #eeeeee;
+}
+.nav-ul .ul-none{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background: #75a6d4;
+}
+.nav-ul:hover .ul-none{
+	display: block;
+}
